@@ -1,0 +1,57 @@
+$PrimaryBlue: hsl(246, 80%, 60%);
+$PrimaryLightRedWork: hsl(15, 100%, 70%);
+$PrimarySoftBluePlay: hsl(195, 74%, 62%);
+$PrimaryLightRedStudy: hsl(348, 100%, 68%);
+$PrimaryLimeGreenExercise: hsl(145, 58%, 55%);
+$PrimaryVioletSocial: hsl(264, 64%, 52%);
+$PrimarySoftOrangeSelfCare: hsl(43, 84%, 65%);
+
+$VeryDarkBlue: hsl(226, 43%, 10%);
+$DarkBlue: hsl(235, 46%, 20%);
+$DesaturatedBlue: hsl(235, 45%, 61%);
+$PaleBlue: hsl(236, 100%, 87%);
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.dashboard {
+  display: flex;
+  flex: 4;
+}
+.dashboardContainer {
+  margin: 0 auto;
+  width: 1440px;
+}
+.profile {
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: auto;
+  background-color: $VeryDarkBlue;
+}
+.profileBio {
+  display: flex;
+  flex-direction: column;
+  flex: 75%;
+  background-color: $PrimaryBlue;
+  border-radius: 15px;
+}
+.profileDaily {
+  color: $DesaturatedBlue;
+}
+.time {
+  display: flex;
+  flex: 70%;
+  flex-direction: row;
+}
+.timeBlock {
+  background-color: $VeryDarkBlue;
+  border-radius: 10px;
+  padding: 10px;
+}
